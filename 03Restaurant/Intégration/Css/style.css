@@ -1,0 +1,52 @@
+
+.inlineB{
+  display: inline-block;
+}
+
+header{
+  background-image: url(../img/plank.jpg);
+}
+
+#logo{
+  top:250px;
+  width: 200px;
+  margin:auto;
+  position: relative;
+}
+#logo div {
+  width: 0;
+	height: 0;
+  border-top: 150px solid #d317f3;
+	border-left: 150px solid transparent;
+}
+#logo img {
+  top: -27px;
+  position: absolute;
+  width: 100%;
+}
+
+nav{
+  position  :absolute;
+  right: 25px;
+  font-weight: bold;
+  font-family: monospace;
+  margin-top: 15px
+}
+
+section{
+  background-color: white;
+  color: black;
+  margin-top: 10%;
+}
+#story{
+  top:250px;
+  width: 200px;
+  margin:auto;
+  position: relative;
+
+}
+#story img{
+  top: -27px;
+  position: absolute;
+  width: 100%;
+}
