@@ -1,17 +1,26 @@
 
 .inlineB{
   display: inline-block;
+
 }
+
+
 
 header{
   background-image: url(../img/plank.jpg);
 }
+header:before{
+  content:&#916;
+
+}
 
 #logo{
-  top:250px;
+  /*top:250px;*/
   width: 200px;
   margin:auto;
   position: relative;
+  margin-top: 100px;
+  padding-bottom: 243px;
 }
 #logo div {
   width: 0;
@@ -36,17 +45,64 @@ nav{
 section{
   background-color: white;
   color: black;
-  margin-top: 10%;
+  /*margin-top: 10%;*/
 }
+
+.pBloque-left, .pBloque-right{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.pBloque-left{
+  width: 75%;
+}
+
+.pBloque-right{
+  width:25%
+}
+
+
 #story{
-  top:250px;
-  width: 200px;
   margin:auto;
   position: relative;
-
+  vertical-align:middle;
+  text-align: center;
 }
+
 #story img{
   top: -27px;
   position: absolute;
+  transform: scaleX(-1);
+}
+
+#fare {
+  top: 150px;
+  margin:auto;
+  position: relative;
+  vertical-align:middle;
+  text-align: center;
+}
+
+#fare img{
+  top: 20px;
+  position: absolute;
+}
+
+#local{
+  top: 150px;
+  margin:auto;
+  position: relative;
+  vertical-align:middle;
+  text-align: center;
+}
+
+#local img{
+  top:100px;
+  width:50%;
+  position: absolute;
+  }
+
+#oeuf img{
   width: 100%;
+  height: auto;
 }
