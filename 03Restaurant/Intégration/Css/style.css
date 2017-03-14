@@ -1,26 +1,29 @@
+/* ---- header ---- */
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
 
 .inlineB{
   display: inline-block;
-
 }
-
-
 
 header{
+  position: relative;
   background-image: url(../img/plank.jpg);
 }
-header:before{
-  content:&#916;
 
+nav{
+  position  :absolute;
+  right: 25px;
+  font-weight: bold;
+  font-family: monospace;
+  margin-top: 15px
 }
 
 #logo{
-  /*top:250px;*/
   width: 200px;
   margin:auto;
   position: relative;
-  margin-top: 100px;
-  padding-bottom: 243px;
+  margin-top: 250px;
+  padding-bottom: 250px;
 }
 #logo div {
   width: 0;
@@ -34,33 +37,67 @@ header:before{
   width: 100%;
 }
 
-nav{
-  position  :absolute;
-  right: 25px;
-  font-weight: bold;
-  font-family: monospace;
-  margin-top: 15px
+h1{
+  font-family: 'Caveat Brush', cursive;
+  text-transform: uppercase;
+  font-size: 50px;
 }
+h1 span{
+  font-size: 40px;
+  display: inline;
+  vertical-align: top;
+  position: relative;
+}
+h1 span:after{
+  top: 15px;
+  content: "-";
+  position: absolute;
+  left: 0;
+}
+#logoResto{
+  position: relative;
+  display: inline-block;
+  margin-left: 80px;
+}
+.rectangle{
+  bottom: 12px;
+  position: absolute;
+  margin: 0;
+  display: block;
+  border: 7px solid #E53F6F;
+  padding: 0 17px;
+  width: 0px;
+  left: 26%;
+}
+/* ---------- */
 
 section{
   background-color: white;
   color: black;
-  /*margin-top: 10%;*/
+}
+section img{
+  width: 100%;
+}
+section > section{
+  overflow: hidden;
+  height: 430px;
+  text-align: center;
+}
+section p, section h2{
+  padding: 0 15%;
 }
 
 .pBloque-left, .pBloque-right{
   display: inline-block;
   vertical-align:middle;
+  overflow: hidden;
 }
-
 .pBloque-left{
-  width: 75%;
+  width: 40%;
 }
-
 .pBloque-right{
-  width:25%
+  width:60%
 }
-
 
 #story{
   margin:auto;
@@ -70,22 +107,15 @@ section{
 }
 
 #story img{
-  top: -27px;
-  position: absolute;
+  width: 125%
   transform: scaleX(-1);
 }
 
-#fare {
-  top: 150px;
-  margin:auto;
-  position: relative;
-  vertical-align:middle;
-  text-align: center;
+#fare .pBloque-left {
+  width:30%;
 }
-
-#fare img{
-  top: 20px;
-  position: absolute;
+#fare .pBloque-right{
+  width:70%;
 }
 
 #local{
@@ -95,12 +125,9 @@ section{
   vertical-align:middle;
   text-align: center;
 }
-
 #local img{
   top:100px;
-  width:50%;
-  position: absolute;
-  }
+}
 
 #oeuf img{
   width: 100%;
