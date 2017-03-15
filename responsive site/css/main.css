@@ -1,0 +1,72 @@
+/*maquette responsive cours patrick isola*/
+
+/*bouquin de Ben Frain éditeur Pearson*/
+
+/*style pour l'ecran d'ordinateur*/
+
+#wrapper{
+  margin-right: auto;
+  margin-left: auto;
+  width:960px;
+}
+
+header{
+  margin-right: 10px;
+  margin-left: 10px;
+  width:940px;
+}
+
+nav{
+  background-color: purple;
+  width: 960px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 26px;
+  margin-left: -10px;
+
+}
+
+nav ul li{
+  display: inline-block;
+
+}
+
+aside{
+  border-right: 2px solid #e8e8e8;
+  margin-top: 58px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  
+  width: 220px;
+  float: left;
+}
+
+#content{
+  background-color: #dedede;
+  margin-top: 58px;
+  margin-right: 10px;
+  width:698px;
+  float: right;
+}
+
+footer{
+  background-color: #663300;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 940px;
+  clear: both;
+}
+
+/*taille pour une tablette*/
+/*@media screen and (max-width:768px)
+{
+  #wrappe {
+    width: 768px;
+      }
+}
+
+header, footer, nav {
+  width: 748px;
+}*/

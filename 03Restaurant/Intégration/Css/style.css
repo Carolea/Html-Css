@@ -54,7 +54,7 @@ h1 span:after{
   position: absolute;
   left: 0;
 }
-#logoResto{
+.logoResto{
   position: relative;
   display: inline-block;
   margin-left: 80px;
@@ -132,4 +132,14 @@ section p, section h2{
 #oeuf img{
   width: 100%;
   height: auto;
+}
+
+/*footer*/
+footer>div{
+  display: inline-block;
+  width: 50%;
+}
+footer p{
+  font-family:
+
 }
