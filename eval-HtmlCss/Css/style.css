@@ -1,0 +1,157 @@
+/*Feuille de style pour l'evaluation "Le bilan"*/
+
+
+
+
+/*Header/Titres h1 h4/Navigation*/
+header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  display: block;
+}
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: -3%;
+  color: #AD9659;
+  width: 150%;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-size: 200%;
+  font-weight: normal;
+  border-top : 1px solid;
+  width : 150%;
+  border-bottom: 1px solid;
+  width: 150%;
+}
+nav {
+  text-align: center;
+  font-size: 100%;
+  font-style: italic;
+  word-spacing: 5px;
+  margin-top: -6%;
+  width: 140%;
+}
+li {
+  display: inline-block;
+}
+/*Header/Titres h1 h4/Navigation*/
+
+/*1er bloc*/
+.poisson {
+  display: inline-block;
+}
+.poisson img {
+  position: relative;
+  padding-left: 115%;
+  padding-top: 3%;
+  width: 90%;
+}
+.poisson article {
+  position: absolute;
+  text-align: right;
+  font-style: italic;
+  border-bottom: 1px solid;
+  width: 50%;
+}
+.poisson p {
+  position: absolute;
+  text-transform: uppercase;
+  text-align: right;
+}
+/*1er bloc*/
+
+/*2eme bloc*/
+
+.pBloc-left, .pBloc-right{
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.pBloc-left{
+  width: 50%;
+  overflow: visible;
+  position: relative;
+}
+.pBloc-right{
+  width:50%
+}
+
+#Salle .pBloc-left {
+  margin:auto;
+  position: relative;
+  vertical-align:middle;
+  text-align: center;
+}
+#Salle .pBloc-right {
+  position: absolute;
+  width: 125%;
+}
+
+#Service .pBloc-right {
+  position: absolute;
+  width: 125%;
+}
+#Service .pBloc-left {
+  margin:auto;
+  position: relative;
+  vertical-align:middle;
+  text-align: center;
+}
+
+#Dressage .pBlock-left {
+  margin:auto;
+  position: relative;
+  vertical-align:middle;
+  text-align: center;
+}
+#Dressage .pBloc-right {
+  position: absolute;
+  width: 125%;
+}
+
+#Gout .pBlock-right {
+  position: absolute;
+  width: 125%;
+}
+#Gout .pBloc-left {
+  margin:auto;
+  position: relative;
+  vertical-align:middle;
+  text-align: center;
+}
+/*2eme bloc*/
+/*footer*/
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  display: block;
+}
+
+footer img {
+  margin-left: 55%;
+}
+footer h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: -3%;
+  color: #AD9659;
+  width: 140%;
+}
+
+footer p {
+  text-align: center;
+  font-size: 100%;
+  font-style: italic;
+  word-spacing: 5px;
+  margin-top: -3%;
+  width: 140%;
+}
+
+/*/footer*/
