@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of eric meyer reset*/
+
+body {
+  background-color: #4A417F;
+	font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+	margin-top: 20px;
+	/*contient le div le plus extérieur*/
+	width: 96%;
+  background-color: olive;
+}
+
+header {
+  margin-right: 1.0416666%;
+  margin-left: 1.0416666%;
+	/*940px÷960px cible/ contexte largeur header / largeur wrapper*/
+  width: 97.91666%;
+	background-color: red;
+}
+
+header img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/*navigation haute*/
+nav {
+	text-align: center;
+	margin-top: 30px;
+	padding-left: 1.0416666%;
+	padding-right: 1.0416666%;
+	/*940px/960px*/
+	width: 97.9166666%;
+	background-color: #fff;
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+aside {
+  margin-right: 1.0416666%;
+  margin-left: 1.0416666%;
+	/*220/960*/
+  width: 22.91666%;
+  float: left;
+  background-color: lightblue;
+
+}
+
+#content {
+  margin-right: 1.0416666%;
+  margin-left: 1.0416666%;
+	/*700/960*/
+  width: 72.9166666%;
+  float: right;
+  background-color: yellow;
+}
+
+footer {
+  margin-right: 1.0416666%;
+  margin-left: 1.0416666%;
+  clear: both;
+	/*940px/960px cible/ contexte largeur header / largeur wrapper*/
+  width: 97.9166666%;
+  background-color: yellow;
+}
+/*a utiliser avec prudence pour les images */
+img {
+	 max-width: 100%;
+}
+
+/*pour le formulaire*/
+
+form {
+	background-color: #fafafa;
+	padding:  1.0416666%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+fieldset {
+	border: 1px solid #333;
+	padding: 0 1.0416666% 1.0416666% 1.0416666% ;
+	margin-bottom: 1.0416666%;
+	margin-top: 1.0416666%;
+}
+
+label {
+	margin-top: 1.0416666%;
+	display: block;
+}
+
+legend {
+	font-weight: 700;
+	margin-bottom: 1.0416666%
+}
+
+label.inline {
+	display: inline;
+}
+input, textarea, select, option {
+	background-color: #fff3f3
+}
